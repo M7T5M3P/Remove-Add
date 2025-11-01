@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Donation Footer Popup",
+  "version": "1.0",
+  "description": "Removes the donation footer popup div from websites.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
