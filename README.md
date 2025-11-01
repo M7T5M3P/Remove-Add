@@ -1,15 +1,3 @@
----
-
-## Remove Donation Popup Extension
-
-This browser extension removes the donation popup with:
-
-```html
-<div class="bottomdiv" id="footer"></div>
-```
-
----
-
 ## Installation (Chrome & Arc Browser)
 
 ### 1️⃣ Create Extension Folder
